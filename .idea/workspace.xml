@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0659dc3c-f9d9-4152-8532-feb7e49e65b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chef's Book BackEnd.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/justterror/rest_service/entity/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/justterror/rest_service/registrator/MealMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/justterror/rest_service/repository/MealRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aP9HvxtSn8RgwNYnqldk2jEPMG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0659dc3c-f9d9-4152-8532-feb7e49e65b4" name="Default Changelist" comment="" />
+      <created>1586626277830</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586626277830</updated>
+      <workItem from="1586626279302" duration="3492000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="496" y="196" key="#Project_Structure" timestamp="1586626288003">
+      <screen x="0" y="23" width="1792" height="1015" />
+    </state>
+    <state x="496" y="196" key="#Project_Structure/0.23.1792.1015@0.23.1792.1015" timestamp="1586626288003" />
+    <state x="709" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1586627382115">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="709" y="221" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1017@0.23.1792.1017" timestamp="1586627382115" />
+    <state x="100" y="123" width="1592" height="815" key="DiffContextDialog" timestamp="1586630187404">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="100" y="123" width="1592" height="815" key="DiffContextDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1586630187404" />
+  </component>
+</project>
