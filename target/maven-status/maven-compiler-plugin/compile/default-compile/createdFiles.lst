@@ -1,0 +1,5 @@
+com/justterror/chefsbook/meal/boundary/MealResource.class
+com/justterror/chefsbook/utils/Configuration.class
+com/justterror/chefsbook/JaxRSActivator.class
+com/justterror/chefsbook/meal/boundary/MealService.class
+com/justterror/chefsbook/meal/entity/Meal.class

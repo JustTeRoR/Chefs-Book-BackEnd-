@@ -1,16 +1,14 @@
-package com.justterror.rest_service.entity;
+package com.justterror.chefsbook.meal.entity;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
-import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
 
-@XmlRootElement
 @Entity
-@Table(name="Meals")
+@Table(name="meals")
 public class Meal implements Serializable {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     @Column(name="name")
@@ -37,7 +35,7 @@ public class Meal implements Serializable {
     @NotNull
     private String ingridients;
 
-    @Column(name="youTube_url")
+    @Column(name="youtube_url")
     @NotNull
     private String youtubeUrl;
 

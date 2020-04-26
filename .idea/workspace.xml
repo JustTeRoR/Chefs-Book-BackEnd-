@@ -1,27 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Chef's Book Backend:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0659dc3c-f9d9-4152-8532-feb7e49e65b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chef's Book BackEnd.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/justterror/rest_service/entity/Meal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/justterror/rest_service/registrator/MealMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/justterror/rest_service/repository/MealRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/JaxRSActivator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/meal/boundary/MealResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/utils/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chef's Book BackEnd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chef's Book BackEnd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/justterror/rest_service/entity/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/meal/entity/Meal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/justterror/rest_service/registrator/MealMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/justterror/rest_service/repository/MealRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/meal/boundary/MealService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MealDB@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MealDB@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MealDB@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="MealsDB: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MealDB@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="MealsDB: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MealDB@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="MealsDB: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MealDB@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="MealsDB: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="meals: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Tag Library Descriptor" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -38,17 +105,209 @@
   <component name="ProjectId" id="1aP9HvxtSn8RgwNYnqldk2jEPMG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.27701148" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.justterror.chefsbook" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/chefsbook/api/meal/" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/chefsbook/api/meals" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/api/meals" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JBoss Server.Wildfly">
+    <configuration name="rest-api#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Wildfly" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 19.0.0.Final" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Chef's Book Backend:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" />
+        <option name="USERNAME" value="" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51790" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Chef's Book Backend:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.rest-api#1" />
+      <item itemvalue="JBoss Server.Wildfly" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.rest-api#1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MealDB@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MealDB@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@161c5649" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MealDB@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@58cdc112" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -61,6 +320,8 @@
       <option name="presentableId" value="Default" />
       <updated>1586626277830</updated>
       <workItem from="1586626279302" duration="3492000" />
+      <workItem from="1587316245941" duration="1208000" />
+      <workItem from="1587744459647" duration="7319000" />
     </task>
     <servers />
   </component>
@@ -68,17 +329,107 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="495" y="195" key="#JBoss_Server" timestamp="1587751383407">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="495" y="195" key="#JBoss_Server/0.23.1792.1017@0.23.1792.1017" timestamp="1587751383407" />
     <state x="496" y="196" key="#Project_Structure" timestamp="1586626288003">
       <screen x="0" y="23" width="1792" height="1015" />
     </state>
     <state x="496" y="196" key="#Project_Structure/0.23.1792.1015@0.23.1792.1015" timestamp="1586626288003" />
-    <state x="709" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1586627382115">
+    <state x="78" y="117" width="1501" height="788" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587754159466">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="709" y="221" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1017@0.23.1792.1017" timestamp="1586627382115" />
+    <state x="78" y="117" width="1501" height="788" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1587754159466" />
+    <state x="709" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1586631461613">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="709" y="221" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1017@0.23.1792.1017" timestamp="1586631461613" />
+    <state x="343" y="463" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587750763980">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="343" y="463" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1587750763980" />
+    <state x="662" y="418" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1587750765248">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="662" y="418" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1792.1017@0.23.1792.1017" timestamp="1587750765248" />
+    <state x="644" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587750465613">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="644" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1587750465613" />
     <state x="100" y="123" width="1592" height="815" key="DiffContextDialog" timestamp="1586630187404">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="100" y="123" width="1592" height="815" key="DiffContextDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1586630187404" />
+    <state width="1204" height="360" key="GridCell.Tab.0.bottom" timestamp="1587755294444">
+      <screen x="0" y="23" width="1792" height="1015" />
+    </state>
+    <state width="1204" height="360" key="GridCell.Tab.0.bottom/0.23.1792.1015@0.23.1792.1015" timestamp="1587755294444" />
+    <state width="1750" height="276" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1587754697989" />
+    <state width="1204" height="204" key="GridCell.Tab.0.bottom/0.23.1792.1020@0.23.1792.1020" timestamp="1587753617125" />
+    <state width="1204" height="360" key="GridCell.Tab.0.center" timestamp="1587755294444">
+      <screen x="0" y="23" width="1792" height="1015" />
+    </state>
+    <state width="1204" height="360" key="GridCell.Tab.0.center/0.23.1792.1015@0.23.1792.1015" timestamp="1587755294444" />
+    <state width="1750" height="276" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1587754697988" />
+    <state width="1204" height="204" key="GridCell.Tab.0.center/0.23.1792.1020@0.23.1792.1020" timestamp="1587753617123" />
+    <state width="1204" height="360" key="GridCell.Tab.0.left" timestamp="1587755294444">
+      <screen x="0" y="23" width="1792" height="1015" />
+    </state>
+    <state width="1204" height="360" key="GridCell.Tab.0.left/0.23.1792.1015@0.23.1792.1015" timestamp="1587755294444" />
+    <state width="1750" height="276" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1587754697988" />
+    <state width="1204" height="204" key="GridCell.Tab.0.left/0.23.1792.1020@0.23.1792.1020" timestamp="1587753617122" />
+    <state width="1204" height="360" key="GridCell.Tab.0.right" timestamp="1587755294444">
+      <screen x="0" y="23" width="1792" height="1015" />
+    </state>
+    <state width="1204" height="360" key="GridCell.Tab.0.right/0.23.1792.1015@0.23.1792.1015" timestamp="1587755294444" />
+    <state width="1750" height="276" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1587754697988" />
+    <state width="1204" height="204" key="GridCell.Tab.0.right/0.23.1792.1020@0.23.1792.1020" timestamp="1587753617124" />
+    <state width="1204" height="360" key="GridCell.Tab.1.bottom" timestamp="1587755294445">
+      <screen x="0" y="23" width="1792" height="1015" />
+    </state>
+    <state width="1204" height="360" key="GridCell.Tab.1.bottom/0.23.1792.1015@0.23.1792.1015" timestamp="1587755294445" />
+    <state width="1204" height="360" key="GridCell.Tab.1.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1587754604797" />
+    <state width="1204" height="204" key="GridCell.Tab.1.bottom/0.23.1792.1020@0.23.1792.1020" timestamp="1587753617129" />
+    <state width="1204" height="360" key="GridCell.Tab.1.center" timestamp="1587755294445">
+      <screen x="0" y="23" width="1792" height="1015" />
+    </state>
+    <state width="1204" height="360" key="GridCell.Tab.1.center/0.23.1792.1015@0.23.1792.1015" timestamp="1587755294445" />
+    <state width="1204" height="360" key="GridCell.Tab.1.center/0.23.1792.1017@0.23.1792.1017" timestamp="1587754604796" />
+    <state width="1204" height="204" key="GridCell.Tab.1.center/0.23.1792.1020@0.23.1792.1020" timestamp="1587753617126" />
+    <state width="1204" height="360" key="GridCell.Tab.1.left" timestamp="1587755294444">
+      <screen x="0" y="23" width="1792" height="1015" />
+    </state>
+    <state width="1204" height="360" key="GridCell.Tab.1.left/0.23.1792.1015@0.23.1792.1015" timestamp="1587755294444" />
+    <state width="1204" height="360" key="GridCell.Tab.1.left/0.23.1792.1017@0.23.1792.1017" timestamp="1587754604796" />
+    <state width="1204" height="204" key="GridCell.Tab.1.left/0.23.1792.1020@0.23.1792.1020" timestamp="1587753617125" />
+    <state width="1204" height="360" key="GridCell.Tab.1.right" timestamp="1587755294445">
+      <screen x="0" y="23" width="1792" height="1015" />
+    </state>
+    <state width="1204" height="360" key="GridCell.Tab.1.right/0.23.1792.1015@0.23.1792.1015" timestamp="1587755294445" />
+    <state width="1204" height="360" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1587754604797" />
+    <state width="1204" height="204" key="GridCell.Tab.1.right/0.23.1792.1020@0.23.1792.1020" timestamp="1587753617127" />
+    <state width="239" height="457" key="HiddenNamespacesPopup" timestamp="1587894000197">
+      <screen x="0" y="23" width="1792" height="1015" />
+    </state>
+    <state width="239" height="457" key="HiddenNamespacesPopup/0.23.1792.1015@0.23.1792.1015" timestamp="1587894000197" />
+    <state x="384" y="112" key="SettingsEditor" timestamp="1587752543111">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="384" y="112" key="SettingsEditor/0.23.1792.1017@0.23.1792.1017" timestamp="1587752543111" />
+    <state x="662" y="347" width="467" height="362" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1587753384765">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="662" y="347" width="467" height="362" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1587753384765" />
+    <state x="573" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1587893991462">
+      <screen x="0" y="23" width="1792" height="1015" />
+    </state>
+    <state x="573" y="363" key="com.intellij.ide.util.TipDialog/0.23.1792.1015@0.23.1792.1015" timestamp="1587893991462" />
+    <state x="573" y="364" key="com.intellij.ide.util.TipDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1587744458503" />
+    <state x="573" y="365" key="com.intellij.ide.util.TipDialog/0.23.1792.1020@0.23.1792.1020" timestamp="1587316245934" />
+    <state x="561" y="247" key="search.everywhere.popup" timestamp="1587750873756">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="561" y="247" key="search.everywhere.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1587750873756" />
   </component>
 </project>

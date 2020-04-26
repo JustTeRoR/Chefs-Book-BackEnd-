@@ -1,22 +1,25 @@
-package com.justterror.rest_service.repository;
+package com.justterror.chefsbook.meal.boundary;
 
-import com.justterror.rest_service.entity.Meal;
+import com.justterror.chefsbook.meal.entity.Meal;
 
+import javax.ejb.Stateless;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import java.util.List;
 import java.util.logging.Logger;
 
-@ApplicationScoped
-public class MealRepository {
+@Stateless
+public class MealService {
 
     @Inject
     Logger logger;
 
-    @Inject
+    @PersistenceContext(name="Meals")
     private EntityManager entityManager;
 
     public Meal getById(long id)
@@ -27,8 +30,7 @@ public class MealRepository {
 
     public List<Meal> getAll()
     {
-        CriteriaBuilder criteriaBuilder = entityManager.getCriteriaBuilder();
-        CriteriaQuery<Meal> criteriaQuery = criteriaBuilder.createQuery(Meal.class);
-        return entityManager.createQuery(criteriaQuery).getResultList();
+        TypedQuery<Meal> query = entityManager.createQuery("select m from Meal m", Meal.class);
+        return query.getResultList();
     }
 }
