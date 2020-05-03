@@ -24,12 +24,14 @@ public class MealService {
 
     public Meal getById(long id)
     {
-        logger.info("Get message by id" + id);
-        return entityManager.find(Meal.class, id);
+        String rawQuery = "select m from Meal m where id = " + id;
+        TypedQuery<Meal> query = entityManager.createQuery(rawQuery, Meal.class);
+        return query.getSingleResult();
     }
 
     public List<Meal> getAll()
     {
+        //jpql
         TypedQuery<Meal> query = entityManager.createQuery("select m from Meal m", Meal.class);
         return query.getResultList();
     }
