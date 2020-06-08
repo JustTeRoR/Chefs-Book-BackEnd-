@@ -1,6 +1,7 @@
 package com.justterror.chefsbook.meal.boundary;
 
 import com.justterror.chefsbook.meal.entity.Meal;
+import com.justterror.chefsbook.utils.Countries;
 
 import javax.ejb.Stateless;
 import javax.enterprise.context.ApplicationScoped;
@@ -19,7 +20,7 @@ public class MealService {
     @Inject
     Logger logger;
 
-    @PersistenceContext(name="Meals")
+    @PersistenceContext(name="meals")
     private EntityManager entityManager;
 
     public Meal getById(long id)
@@ -33,6 +34,14 @@ public class MealService {
     {
         //jpql
         TypedQuery<Meal> query = entityManager.createQuery("select m from Meal m", Meal.class);
+        return query.getResultList();
+    }
+
+    public List<Meal> getByCountry(Countries country)
+    {
+        String russianRepresentance = country.toString();
+        String rawQuery = "select m from Meal m where country = \'" + russianRepresentance + "\'";
+        TypedQuery<Meal> query = entityManager.createQuery(rawQuery, Meal.class);
         return query.getResultList();
     }
 }
