@@ -1,6 +1,7 @@
 package com.justterror.chefsbook.meal.boundary;
 
 import com.justterror.chefsbook.meal.entity.Meal;
+import com.justterror.chefsbook.utils.Categories;
 import com.justterror.chefsbook.utils.Countries;
 
 import javax.annotation.security.PermitAll;
@@ -62,7 +63,23 @@ public class MealResource {
         logger.info("Get meals for country - " + country.toString());
         return mealService.getByCountry(country);
     }
+    @GET
+    @Path("category/{category}")
+    @RolesAllowed({USER, ADMIN})
+    @Produces(MediaType.APPLICATION_JSON)
+    public List<Meal> getByCategory(@PathParam("category") Categories category) {
+        logger.info("Get meals for country - " + category.toString());
+        return mealService.getByCategory(category);
+    }
 
+    @GET
+    @Path("/s={query}")
+    @RolesAllowed({USER, ADMIN})
+    @Produces(MediaType.APPLICATION_JSON)
+    public List<Meal> getByCategory(@PathParam("query") String query) {
+        logger.info("Search for meals for string  -  " + query);
+        return mealService.getByStringQuery(query);
+    }
 
 /*
     @GET

@@ -1,6 +1,7 @@
 package com.justterror.chefsbook.meal.boundary;
 
 import com.justterror.chefsbook.meal.entity.Meal;
+import com.justterror.chefsbook.utils.Categories;
 import com.justterror.chefsbook.utils.Countries;
 
 import javax.ejb.Stateless;
@@ -37,11 +38,23 @@ public class MealService {
         return query.getResultList();
     }
 
-    public List<Meal> getByCountry(Countries country)
-    {
+    public List<Meal> getByCountry(Countries country) {
         String russianRepresentance = country.toString();
         String rawQuery = "select m from Meal m where country = \'" + russianRepresentance + "\'";
         TypedQuery<Meal> query = entityManager.createQuery(rawQuery, Meal.class);
         return query.getResultList();
+    }
+
+    public List<Meal> getByCategory(Categories categories) {
+        String russianRepresentance = categories.toString();
+        String rawQuery = "select m from Meal m where category = \'" + russianRepresentance + "\'";
+        TypedQuery<Meal> query = entityManager.createQuery(rawQuery, Meal.class);
+        return query.getResultList();
+    }
+
+    public List<Meal> getByStringQuery(String query) {
+        String rawQuery = "select m from Meal m where name LIKE \'%" + query + "%\'";
+        TypedQuery<Meal> typedQuery= entityManager.createQuery(rawQuery, Meal.class);
+        return typedQuery.getResultList();
     }
 }

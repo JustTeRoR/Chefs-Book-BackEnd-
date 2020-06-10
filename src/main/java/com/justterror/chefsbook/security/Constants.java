@@ -11,5 +11,4 @@ public class Constants {
     public static final String USER = "ROLE_USER";
 
     public static final int REMEMBERME_VALIDITY_SECONDS = 24 * 60 * 60; //24 hours
-
 }
