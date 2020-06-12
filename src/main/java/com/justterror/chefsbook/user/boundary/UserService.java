@@ -76,23 +76,7 @@ public class UserService {
         return user != null;
     }
 
-    public void insertWithQuery(User user) {
-       /* entityManager.createNativeQuery("INSERT INTO users (id, username, password) VALUES (?,?,?,?)")
-                .setParameter(1, user.getId())
-                .setParameter(2, user.getUsername())
-                .setParameter(3, user.getPassword())
-                .setParameter(4, Constants.USER)
-                .executeUpdate();
-    */
-        entityManager.createNativeQuery("INSERT INTO users (username, password, role) VALUES (?,?,?)")
-                .setParameter(1, user.getUsername())
-                .setParameter(2, user.getPassword())
-                .setParameter(3, Constants.USER)
-                .executeUpdate();
-    }
-
-
-    private static String getMD5Hash(String input) {
+    public static String getMD5Hash(String input) {
         StringBuffer sb = new StringBuffer();
 
         try {

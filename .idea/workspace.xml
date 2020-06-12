@@ -7,32 +7,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0659dc3c-f9d9-4152-8532-feb7e49e65b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/user/boundary/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/utils/Categories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/utils/CdiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/AuthController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/meal/boundary/MealResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/meal/boundary/MealResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/meal/boundary/MealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/meal/boundary/MealService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/security/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/security/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/security/AuthenticationIdentityStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/security/AuthenticationIdentityStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/security/AuthorizationIdentityStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/security/AuthorizationIdentityStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/user/boundary/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/user/boundary/UserResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/user/boundary/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/user/boundary/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/user/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/user/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/utils/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/utils/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chefsbook/WEB-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/chefsbook/WEB-INF/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/chefsbook/WEB-INF/classes/com/justterror/chefsbook/AuthController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/chefsbook/WEB-INF/classes/com/justterror/chefsbook/meal/boundary/MealResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/chefsbook/WEB-INF/classes/com/justterror/chefsbook/meal/boundary/MealResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chefsbook/WEB-INF/classes/com/justterror/chefsbook/meal/boundary/MealService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/chefsbook/WEB-INF/classes/com/justterror/chefsbook/meal/boundary/MealService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/chefsbook/WEB-INF/classes/com/justterror/chefsbook/security/AuthenticationIdentityStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/chefsbook/WEB-INF/classes/com/justterror/chefsbook/security/AuthenticationIdentityStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/chefsbook/WEB-INF/classes/com/justterror/chefsbook/security/JWTAuthenticationMechanism.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/chefsbook/WEB-INF/classes/com/justterror/chefsbook/security/JWTAuthenticationMechanism.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/chefsbook/WEB-INF/classes/com/justterror/chefsbook/user/boundary/UserResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/chefsbook/WEB-INF/classes/com/justterror/chefsbook/user/boundary/UserResource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/chefsbook/WEB-INF/classes/com/justterror/chefsbook/user/boundary/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/chefsbook/WEB-INF/classes/com/justterror/chefsbook/user/boundary/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chefsbook/WEB-INF/classes/com/justterror/chefsbook/user/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/chefsbook/WEB-INF/classes/com/justterror/chefsbook/user/entity/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/chefsbook/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/chefsbook/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/justterror/chefsbook/AuthController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/justterror/chefsbook/meal/boundary/MealResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/justterror/chefsbook/meal/boundary/MealResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/justterror/chefsbook/meal/boundary/MealService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/justterror/chefsbook/meal/boundary/MealService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/justterror/chefsbook/security/AuthenticationIdentityStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/justterror/chefsbook/security/AuthenticationIdentityStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/justterror/chefsbook/security/JWTAuthenticationMechanism.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/justterror/chefsbook/security/JWTAuthenticationMechanism.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/justterror/chefsbook/user/boundary/UserResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/justterror/chefsbook/user/boundary/UserResource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/justterror/chefsbook/user/boundary/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/justterror/chefsbook/user/boundary/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/justterror/chefsbook/user/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/justterror/chefsbook/user/entity/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -326,7 +322,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -356,7 +352,7 @@
       <workItem from="1591555024065" duration="674000" />
       <workItem from="1591628549988" duration="23313000" />
       <workItem from="1591737486424" duration="20000" />
-      <workItem from="1591810095410" duration="6851000" />
+      <workItem from="1591810095410" duration="19077000" />
     </task>
     <servers />
   </component>
@@ -405,86 +401,87 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="384" y="162" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1588605925048" />
-    <state width="499" height="466" key="DebuggerActiveHint" timestamp="1591630202902">
+    <state width="520" height="466" key="DebuggerActiveHint" timestamp="1591911277139">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="499" height="466" key="DebuggerActiveHint/0.0.1792.1120@0.0.1792.1120" timestamp="1591630202902" />
+    <state width="520" height="466" key="DebuggerActiveHint/0.0.1792.1120@0.0.1792.1120" timestamp="1591911277139" />
+    <state width="499" height="424" key="DebuggerActiveHint/0.23.1792.1017@0.23.1792.1017" timestamp="1591906713886" />
     <state x="100" y="123" width="1592" height="815" key="DiffContextDialog" timestamp="1586630187404">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="100" y="123" width="1592" height="815" key="DiffContextDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1586630187404" />
-    <state width="1400" height="446" key="GridCell.Tab.0.bottom" timestamp="1591824464697">
+    <state width="1400" height="277" key="GridCell.Tab.0.bottom" timestamp="1591974787044">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1400" height="446" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1591824464697" />
+    <state width="1400" height="277" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1591974787044" />
     <state width="1204" height="360" key="GridCell.Tab.0.bottom/0.23.1792.1015@0.23.1792.1015" timestamp="1587755294444" />
-    <state width="1400" height="506" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1591635957345" />
+    <state width="1400" height="245" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1591974272228" />
     <state width="1400" height="212" key="GridCell.Tab.0.bottom/0.23.1792.1018@0.23.1792.1018" timestamp="1591642026807" />
     <state width="1204" height="204" key="GridCell.Tab.0.bottom/0.23.1792.1020@0.23.1792.1020" timestamp="1587753617125" />
-    <state width="1021" height="295" key="GridCell.Tab.0.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1588537322816" />
-    <state width="1400" height="446" key="GridCell.Tab.0.center" timestamp="1591824464696">
+    <state width="1400" height="245" key="GridCell.Tab.0.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1591971102419" />
+    <state width="1400" height="277" key="GridCell.Tab.0.center" timestamp="1591974787043">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1400" height="446" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1591824464696" />
+    <state width="1400" height="277" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1591974787043" />
     <state width="1204" height="360" key="GridCell.Tab.0.center/0.23.1792.1015@0.23.1792.1015" timestamp="1587755294444" />
-    <state width="1400" height="506" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1591635957344" />
+    <state width="1400" height="245" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1591974272227" />
     <state width="1400" height="212" key="GridCell.Tab.0.center/0.23.1792.1018@0.23.1792.1018" timestamp="1591642026805" />
     <state width="1204" height="204" key="GridCell.Tab.0.center/0.23.1792.1020@0.23.1792.1020" timestamp="1587753617123" />
-    <state width="1021" height="295" key="GridCell.Tab.0.center/0.23.1792.1022@0.23.1792.1022" timestamp="1588537322816" />
-    <state width="1400" height="446" key="GridCell.Tab.0.left" timestamp="1591824464695">
+    <state width="1400" height="245" key="GridCell.Tab.0.center/0.23.1792.1022@0.23.1792.1022" timestamp="1591971102418" />
+    <state width="1400" height="277" key="GridCell.Tab.0.left" timestamp="1591974787042">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1400" height="446" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1591824464695" />
+    <state width="1400" height="277" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1591974787042" />
     <state width="1204" height="360" key="GridCell.Tab.0.left/0.23.1792.1015@0.23.1792.1015" timestamp="1587755294444" />
-    <state width="1400" height="506" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1591635957343" />
+    <state width="1400" height="245" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1591974272227" />
     <state width="1400" height="212" key="GridCell.Tab.0.left/0.23.1792.1018@0.23.1792.1018" timestamp="1591642026804" />
     <state width="1204" height="204" key="GridCell.Tab.0.left/0.23.1792.1020@0.23.1792.1020" timestamp="1587753617122" />
-    <state width="1021" height="295" key="GridCell.Tab.0.left/0.23.1792.1022@0.23.1792.1022" timestamp="1588537322815" />
-    <state width="1400" height="446" key="GridCell.Tab.0.right" timestamp="1591824464696">
+    <state width="1400" height="245" key="GridCell.Tab.0.left/0.23.1792.1022@0.23.1792.1022" timestamp="1591971102417" />
+    <state width="1400" height="277" key="GridCell.Tab.0.right" timestamp="1591974787043">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1400" height="446" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1591824464696" />
+    <state width="1400" height="277" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1591974787043" />
     <state width="1204" height="360" key="GridCell.Tab.0.right/0.23.1792.1015@0.23.1792.1015" timestamp="1587755294444" />
-    <state width="1400" height="506" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1591635957344" />
+    <state width="1400" height="245" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1591974272227" />
     <state width="1400" height="212" key="GridCell.Tab.0.right/0.23.1792.1018@0.23.1792.1018" timestamp="1591642026806" />
     <state width="1204" height="204" key="GridCell.Tab.0.right/0.23.1792.1020@0.23.1792.1020" timestamp="1587753617124" />
-    <state width="1021" height="295" key="GridCell.Tab.0.right/0.23.1792.1022@0.23.1792.1022" timestamp="1588537322816" />
-    <state width="1400" height="446" key="GridCell.Tab.1.bottom" timestamp="1591824313911">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1400" height="245" key="GridCell.Tab.0.right/0.23.1792.1022@0.23.1792.1022" timestamp="1591971102418" />
+    <state width="1400" height="277" key="GridCell.Tab.1.bottom" timestamp="1591974802992">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1400" height="446" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1591824313911" />
+    <state width="1400" height="277" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1591974299802" />
     <state width="1204" height="360" key="GridCell.Tab.1.bottom/0.23.1792.1015@0.23.1792.1015" timestamp="1587755294445" />
-    <state width="1400" height="506" key="GridCell.Tab.1.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1591636347466" />
+    <state width="1400" height="277" key="GridCell.Tab.1.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1591974802992" />
     <state width="1400" height="212" key="GridCell.Tab.1.bottom/0.23.1792.1018@0.23.1792.1018" timestamp="1591642026815" />
     <state width="1400" height="239" key="GridCell.Tab.1.bottom/0.23.1792.1020@0.23.1792.1020" timestamp="1591736077519" />
-    <state width="1021" height="295" key="GridCell.Tab.1.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1588537322816" />
-    <state width="1400" height="446" key="GridCell.Tab.1.center" timestamp="1591824313910">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1400" height="245" key="GridCell.Tab.1.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1591973187825" />
+    <state width="1400" height="277" key="GridCell.Tab.1.center" timestamp="1591974802991">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1400" height="446" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1591824313910" />
+    <state width="1400" height="277" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1591974299801" />
     <state width="1204" height="360" key="GridCell.Tab.1.center/0.23.1792.1015@0.23.1792.1015" timestamp="1587755294445" />
-    <state width="1400" height="506" key="GridCell.Tab.1.center/0.23.1792.1017@0.23.1792.1017" timestamp="1591636347466" />
+    <state width="1400" height="277" key="GridCell.Tab.1.center/0.23.1792.1017@0.23.1792.1017" timestamp="1591974802991" />
     <state width="1400" height="212" key="GridCell.Tab.1.center/0.23.1792.1018@0.23.1792.1018" timestamp="1591642026814" />
     <state width="1400" height="239" key="GridCell.Tab.1.center/0.23.1792.1020@0.23.1792.1020" timestamp="1591736077518" />
-    <state width="1021" height="295" key="GridCell.Tab.1.center/0.23.1792.1022@0.23.1792.1022" timestamp="1588537322816" />
-    <state width="1400" height="446" key="GridCell.Tab.1.left" timestamp="1591824313910">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1400" height="245" key="GridCell.Tab.1.center/0.23.1792.1022@0.23.1792.1022" timestamp="1591973187824" />
+    <state width="1400" height="277" key="GridCell.Tab.1.left" timestamp="1591974802990">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1400" height="446" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1591824313910" />
+    <state width="1400" height="277" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1591974299800" />
     <state width="1204" height="360" key="GridCell.Tab.1.left/0.23.1792.1015@0.23.1792.1015" timestamp="1587755294444" />
-    <state width="1400" height="506" key="GridCell.Tab.1.left/0.23.1792.1017@0.23.1792.1017" timestamp="1591636347465" />
+    <state width="1400" height="277" key="GridCell.Tab.1.left/0.23.1792.1017@0.23.1792.1017" timestamp="1591974802990" />
     <state width="1400" height="212" key="GridCell.Tab.1.left/0.23.1792.1018@0.23.1792.1018" timestamp="1591642026813" />
     <state width="1400" height="239" key="GridCell.Tab.1.left/0.23.1792.1020@0.23.1792.1020" timestamp="1591736077518" />
-    <state width="1021" height="295" key="GridCell.Tab.1.left/0.23.1792.1022@0.23.1792.1022" timestamp="1588537322816" />
-    <state width="1400" height="446" key="GridCell.Tab.1.right" timestamp="1591824313911">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1400" height="245" key="GridCell.Tab.1.left/0.23.1792.1022@0.23.1792.1022" timestamp="1591973187824" />
+    <state width="1400" height="277" key="GridCell.Tab.1.right" timestamp="1591974802991">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1400" height="446" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1591824313911" />
+    <state width="1400" height="277" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1591974299801" />
     <state width="1204" height="360" key="GridCell.Tab.1.right/0.23.1792.1015@0.23.1792.1015" timestamp="1587755294445" />
-    <state width="1400" height="506" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1591636347466" />
+    <state width="1400" height="277" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1591974802991" />
     <state width="1400" height="212" key="GridCell.Tab.1.right/0.23.1792.1018@0.23.1792.1018" timestamp="1591642026814" />
     <state width="1400" height="239" key="GridCell.Tab.1.right/0.23.1792.1020@0.23.1792.1020" timestamp="1591736077519" />
-    <state width="1021" height="295" key="GridCell.Tab.1.right/0.23.1792.1022@0.23.1792.1022" timestamp="1588537322816" />
+    <state width="1400" height="245" key="GridCell.Tab.1.right/0.23.1792.1022@0.23.1792.1022" timestamp="1591973187825" />
     <state width="239" height="457" key="HiddenNamespacesPopup" timestamp="1587894000197">
       <screen x="0" y="23" width="1792" height="1015" />
     </state>
@@ -527,25 +524,31 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/security/JWTAuthenticationMechanism.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/user/boundary/UserService.java</url>
-          <line>86</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/user/boundary/UserService.java</url>
           <line>74</line>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/user/boundary/UserResource.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/security/AuthenticationIdentityStore.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/security/JWTAuthenticationMechanism.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JBossConfiguration">
         <watch expression="cachedAccount" language="JAVA" />
+        <watch expression="expectedUser.password" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

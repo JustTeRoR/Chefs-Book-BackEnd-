@@ -1,6 +1,12 @@
 package com.justterror.chefsbook.security;
 
+import com.justterror.chefsbook.user.boundary.UserRepository;
+import com.justterror.chefsbook.user.entity.User;
+
 import javax.annotation.PostConstruct;
+import javax.inject.Inject;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import javax.security.enterprise.identitystore.CredentialValidationResult;
 import javax.security.enterprise.identitystore.IdentityStore;
 import java.util.HashMap;
@@ -17,18 +23,17 @@ import static javax.security.enterprise.identitystore.IdentityStore.ValidationTy
 
 public class AuthorizationIdentityStore implements IdentityStore {
 
-    private Map<String, Set<String>> groupsPerCaller;
+    @Inject
+    UserRepository repository;
 
-    @PostConstruct
-    public void init() {
-        groupsPerCaller = new HashMap<>();
-        groupsPerCaller.put("justterror", new HashSet<>(asList(USER, ADMIN)));
-        groupsPerCaller.put("duke", singleton(USER));
-    }
+    @PersistenceContext(name="users")
+    private EntityManager entityManager;
 
     @Override
     public Set<String> getCallerGroups(CredentialValidationResult validationResult) {
-        Set<String> result = groupsPerCaller.get(validationResult.getCallerPrincipal().getName());
+        Set<String> result;
+        User expectedUser = repository.findByUsername(validationResult.getCallerPrincipal().getName());
+        result = (singleton(expectedUser.getRole()));
         if (result == null) {
             result = emptySet();
         }

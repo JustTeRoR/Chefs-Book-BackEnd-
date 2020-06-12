@@ -73,35 +73,11 @@ public class MealResource {
     }
 
     @GET
-    @Path("/s={query}")
+    @Path("/search={query}")
     @RolesAllowed({USER, ADMIN})
     @Produces(MediaType.APPLICATION_JSON)
-    public List<Meal> getByCategory(@PathParam("query") String query) {
+    public List<Meal> getByName(@PathParam("query") String query) {
         logger.info("Search for meals for string  -  " + query);
         return mealService.getByStringQuery(query);
     }
-
-/*
-    @GET
-    @Path("read")
-    @PermitAll
-    public Response read() {
-        logger.log(Level.INFO, "read");
-        JsonObject result = Json.createObjectBuilder()
-                .add("user", securityContext.getCallerPrincipal() != null
-                        ? securityContext.getCallerPrincipal().getName() : "Anonymous")
-                .add("message", "Read resource")
-                .build();
-        return Response.ok(result).build();
-    }
-
-    @GET
-    @Path("write")
-    @RolesAllowed({USER, ADMIN})
-    @Produces(MediaType.APPLICATION_JSON)
-    public List<Meal> write() {
-        logger.log(Level.INFO, "write");
-        return mealService.getAll();
-    }
-*/
 }
