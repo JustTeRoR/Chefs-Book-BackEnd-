@@ -11,7 +11,7 @@
     <security-role>
         <role-name>ROLE_ADMIN</role-name>
     </security-role>
-    
+
 
     <security-constraint>
         <web-resource-collection>
@@ -23,15 +23,6 @@
             <role-name>ROLE_USER</role-name>
             <role-name>ROLE_ADMIN</role-name>
         </auth-constraint>
-    </security-constraint>
-
-    <security-constraint>
-        <display-name/>
-        <web-resource-collection>
-            <web-resource-name>User authorisation and registration resources</web-resource-name>
-            <url-pattern>/api/user*</url-pattern>
-
-        </web-resource-collection>
     </security-constraint>
 
 </web-app>

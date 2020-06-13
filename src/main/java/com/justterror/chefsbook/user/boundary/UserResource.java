@@ -52,7 +52,6 @@ public class UserResource {
     @POST
     @Path("/register/{username}&{password}")
     @PermitAll
-    @SecurityPermission("createAccessControlContext")
     public Response registerUser(@PathParam("username") String username, @PathParam("password") String password)  {
         logger.info("Register new person");
         userService.register(username, password);
