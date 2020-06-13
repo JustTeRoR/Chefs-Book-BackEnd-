@@ -1,10 +1,8 @@
 package com.justterror.chefsbook.user.entity;
 
 
-import javax.annotation.security.DeclareRoles;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
-import java.util.List;
 
 @Entity
 @Table(name = "users")

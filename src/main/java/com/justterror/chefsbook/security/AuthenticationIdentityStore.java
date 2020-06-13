@@ -4,7 +4,6 @@ import com.justterror.chefsbook.user.boundary.UserRepository;
 import com.justterror.chefsbook.user.boundary.UserService;
 import com.justterror.chefsbook.user.entity.User;
 
-import javax.annotation.PostConstruct;
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
@@ -13,8 +12,6 @@ import javax.security.enterprise.credential.Credential;
 import javax.security.enterprise.credential.UsernamePasswordCredential;
 import javax.security.enterprise.identitystore.CredentialValidationResult;
 import javax.security.enterprise.identitystore.IdentityStore;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Set;
 
 import static java.util.Collections.singleton;

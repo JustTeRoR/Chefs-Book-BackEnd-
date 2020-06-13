@@ -14,7 +14,6 @@ import javax.security.enterprise.identitystore.IdentityStoreHandler;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import java.security.SecurityPermission;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 

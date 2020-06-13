@@ -1,34 +1,16 @@
 package com.justterror.chefsbook.user.boundary;
 
-import com.justterror.chefsbook.meal.entity.Meal;
-import com.justterror.chefsbook.security.JWTAuthenticationMechanism;
+import com.justterror.chefsbook.security.Constants;
 import com.justterror.chefsbook.user.entity.User;
-import com.sun.deploy.association.RegisterFailedException;
 
-import javax.crypto.SecretKeyFactory;
-import javax.crypto.spec.PBEKeySpec;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
-import javax.jws.soap.SOAPBinding;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import javax.persistence.TypedQuery;
-import javax.security.enterprise.AuthenticationException;
-import javax.security.enterprise.identitystore.PasswordHash;
-import javax.ws.rs.core.Response;
-import javax.xml.registry.RegistryException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
-import java.security.spec.InvalidKeySpecException;
-import java.util.Arrays;
-import java.util.Base64;
-import java.util.List;
-import java.util.Optional;
 import java.util.logging.Logger;
-
-import com.justterror.chefsbook.security.Constants;
-import static sun.security.x509.CertificateAlgorithmId.ALGORITHM;
 
 @Stateless
 public class UserService {

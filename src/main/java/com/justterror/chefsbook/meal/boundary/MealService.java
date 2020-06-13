@@ -5,13 +5,10 @@ import com.justterror.chefsbook.utils.Categories;
 import com.justterror.chefsbook.utils.Countries;
 
 import javax.ejb.Stateless;
-import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
 import java.util.List;
 import java.util.logging.Logger;
 
