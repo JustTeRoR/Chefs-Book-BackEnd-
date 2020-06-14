@@ -97,8 +97,7 @@
                 <version>3.2.0</version>
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
-                    <outputDirectory>target/wildfly-${version.wildfly
-                    }/standalone/deployments</outputDirectory>
+                    <outputDirectory>target/</outputDirectory>
                     <warName>${project.artifactId}</warName>
                 </configuration>
             </plugin>
