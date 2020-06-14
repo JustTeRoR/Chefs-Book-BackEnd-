@@ -52,6 +52,12 @@
             <version>3.2.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-ear-plugin</artifactId>
+            <version>3.0.2</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -103,6 +109,14 @@
                 </configuration>
             </plugin>
 
+
+            <plugin>
+                <artifactId>maven-ear-plugin</artifactId>
+                <version>3.0.2</version>
+                <configuration>
+                    <outputDirectory>../pathto/deployments</outputDirectory>
+                </configuration>
+            </plugin>
 
         </plugins>
 
