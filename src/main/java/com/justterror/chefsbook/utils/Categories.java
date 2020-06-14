@@ -4,14 +4,14 @@ public enum Categories {
     Dessert("Десерт"),
     Beef("Говядина"),
     Vegetarian("Вегетерианское"),
-    Starter("Легкое в приготовлении"),
+    Starter("Первое"),
     Miscellaneous("Разнородное"),
     Side("Гарнир"),
     Chicken("Курица"),
     Seafood("Морепродукты"),
     Breakfast("Завтрак"),
     Pork("Свинина"),
-    Pasta("Макароны"),
+    Pasta("Макаронные изделия"),
     Lamb("Ягненок"),
     Goat("Козленок");
 
