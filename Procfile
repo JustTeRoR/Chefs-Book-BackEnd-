@@ -1,1 +1,1 @@
-web: target/deployments/*.war -Djboss.http.port=$PORT -b 0.0.0.0
+web: /app/tmp/cache/.m2/repository/com/justterror/chefsbook/1.0-SNAPSHOT/*.war -Djboss.http.port=$PORT -b 0.0.0.0
