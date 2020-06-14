@@ -1,1 +1,1 @@
-web: target/wildfly-19.0.0.Final/standalone/deployments/*.war -Djboss.http.port=$PORT -b 0.0.0.0
+web: target/deployments/*.war -Djboss.http.port=$PORT -b 0.0.0.0

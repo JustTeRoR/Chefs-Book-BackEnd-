@@ -114,7 +114,7 @@
                 <artifactId>maven-ear-plugin</artifactId>
                 <version>3.0.2</version>
                 <configuration>
-                    <outputDirectory>target/wildfly-19.0.0.Final/standalone/deployments</outputDirectory>
+                    <outputDirectory>target/deployments</outputDirectory>
                 </configuration>
             </plugin>
 
