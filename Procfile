@@ -1,1 +1,1 @@
-web: /app/tmp/cache/.m2/repository/com/justterror/chefsbook/1.0-SNAPSHOT/*.war -Djboss.http.port=$PORT -b 0.0.0.0
+web: target/wildfly-10.1.0.Final/bin/standalone.sh -Djboss.http.port=$PORT -b 0.0.0.0

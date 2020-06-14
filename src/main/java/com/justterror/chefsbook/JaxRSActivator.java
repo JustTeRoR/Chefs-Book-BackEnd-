@@ -8,6 +8,6 @@ import static com.justterror.chefsbook.security.Constants.ADMIN;
 import static com.justterror.chefsbook.security.Constants.USER;
 
 @DeclareRoles({ADMIN, USER})
-@ApplicationPath("/api")
+    @ApplicationPath("/api")
 public class JaxRSActivator extends Application {
 }

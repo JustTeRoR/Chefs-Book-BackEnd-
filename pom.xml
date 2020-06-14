@@ -109,15 +109,6 @@
                 </configuration>
             </plugin>
 
-
-            <plugin>
-                <artifactId>maven-ear-plugin</artifactId>
-                <version>3.0.2</version>
-                <configuration>
-                    <outputDirectory>target/deployments</outputDirectory>
-                </configuration>
-            </plugin>
-
         </plugins>
 
     </build>
