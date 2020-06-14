@@ -1,1 +1,1 @@
-web: target/chefsbook.war -Djboss.http.port=$PORT -b 0.0.0.0
+web: java -Dserver.port=$PORT -jar target/chefsbook.war
