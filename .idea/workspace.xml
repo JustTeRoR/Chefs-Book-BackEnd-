@@ -7,15 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0659dc3c-f9d9-4152-8532-feb7e49e65b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/category/boundary/CategoryResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/category/boundary/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/category/entity/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/utils/Categories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/justterror/chefsbook/utils/Categories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chefsbook/WEB-INF/classes/com/justterror/chefsbook/utils/Categories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/chefsbook/WEB-INF/classes/com/justterror/chefsbook/utils/Categories.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/justterror/chefsbook/utils/Categories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/justterror/chefsbook/utils/Categories.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -318,7 +311,7 @@
       <workItem from="1592049182101" duration="1442000" />
       <workItem from="1592090561482" duration="75000" />
       <workItem from="1592092905811" duration="5250000" />
-      <workItem from="1592147320876" duration="853000" />
+      <workItem from="1592147320876" duration="1164000" />
     </task>
     <servers />
   </component>
