@@ -1,0 +1,97 @@
+REST resources of chefsbook:
+1.0-SNAPSHOT
+
+GET api/category/:
+ Request:
+  No body
+
+ Response:
+  Content-Type: application/json
+  Status Codes: 200
+   Response Body: com.justterror.chefsbook.category.entity.Category (application/json): 
+[{"id":0,"name":"string","englishname":"string","imageurl":"string","description":"string"}]
+
+
+GET api/meal/:
+ Request:
+  No body
+
+ Response:
+  Content-Type: application/json
+  Status Codes: 200
+   Response Body: com.justterror.chefsbook.meal.entity.Meal (application/json): 
+[{"id":0,"name":"string","category":"string","country":"string","recipe":"string","tags":"string","ingridients":"string","youtubeUrl":"string","image":"string"}]
+
+
+GET api/meal/category/{category}:
+ Request:
+  No body
+  Path Param: category, com.justterror.chefsbook.utils.Categories
+
+ Response:
+  Content-Type: application/json
+  Status Codes: 200
+   Response Body: com.justterror.chefsbook.meal.entity.Meal (application/json): 
+[{"id":0,"name":"string","category":"string","country":"string","recipe":"string","tags":"string","ingridients":"string","youtubeUrl":"string","image":"string"}]
+
+
+GET api/meal/country/{country}:
+ Request:
+  No body
+  Path Param: country, com.justterror.chefsbook.utils.Countries
+
+ Response:
+  Content-Type: application/json
+  Status Codes: 200
+   Response Body: com.justterror.chefsbook.meal.entity.Meal (application/json): 
+[{"id":0,"name":"string","category":"string","country":"string","recipe":"string","tags":"string","ingridients":"string","youtubeUrl":"string","image":"string"}]
+
+
+GET api/meal/mealId/{id}:
+ Request:
+  No body
+  Path Param: id, long
+
+ Response:
+  Content-Type: application/json
+  Status Codes: 200
+   Response Body: com.justterror.chefsbook.meal.entity.Meal (application/json): 
+{"id":0,"name":"string","category":"string","country":"string","recipe":"string","tags":"string","ingridients":"string","youtubeUrl":"string","image":"string"}
+
+
+GET api/meal/search={query}:
+ Request:
+  No body
+  Path Param: query, java.lang.String
+
+ Response:
+  Content-Type: application/json
+  Status Codes: 200
+   Response Body: com.justterror.chefsbook.meal.entity.Meal (application/json): 
+[{"id":0,"name":"string","category":"string","country":"string","recipe":"string","tags":"string","ingridients":"string","youtubeUrl":"string","image":"string"}]
+
+
+GET api/user/login:
+ Request:
+  No body
+
+ Response:
+  Content-Type: */*
+  Status Codes: 401
+
+  Status Codes: 200
+   Response Body: javax.json.JsonObject (application/json): 
+{"user":"string"}
+
+
+POST api/user/register/{username}&{password}:
+ Request:
+  No body
+  Path Param: password, java.lang.String
+  Path Param: username, java.lang.String
+
+ Response:
+  Content-Type: */*
+  Status Codes: 200
+
+

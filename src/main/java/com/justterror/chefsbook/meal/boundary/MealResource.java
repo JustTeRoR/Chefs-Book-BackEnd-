@@ -55,7 +55,7 @@ public class MealResource {
         return mealService.getByCountry(country);
     }
     @GET
-    @Path("category/{category}")
+    @Path("mealCategory/category={category}")
     @RolesAllowed({USER, ADMIN})
     @Produces(MediaType.APPLICATION_JSON)
     public List<Meal> getByCategory(@PathParam("category") Categories category) {

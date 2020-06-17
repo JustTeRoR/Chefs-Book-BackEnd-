@@ -9,6 +9,7 @@ import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
+import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -50,7 +51,11 @@ public class MealService {
     }
 
     public List<Meal> getByStringQuery(String query) {
-        String rawQuery = "select m from Meal m where name LIKE \'%" + query + "%\'";
+        byte[] bytes = query.getBytes(StandardCharsets.UTF_8);
+        String utf8EncodedString = new String(bytes, StandardCharsets.UTF_8);
+
+        //query.replaceAll("20%", " ");
+        String rawQuery = "select m from Meal m where name LIKE \'%" + utf8EncodedString + "%\'";
         TypedQuery<Meal> typedQuery= entityManager.createQuery(rawQuery, Meal.class);
         return typedQuery.getResultList();
     }
